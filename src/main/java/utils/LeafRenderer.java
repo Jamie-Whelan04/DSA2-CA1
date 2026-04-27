@@ -19,7 +19,13 @@ public class LeafRenderer {
             gc.setStroke(Color.BLUE);
             gc.strokeRect(c.getMinX(), c.getMinY(),
                     c.getWidth(), c.getHeight());
+        }
+    }
 
+    public static void showRanks(Canvas canvas, List<LeafCluster> clusters) {
+        GraphicsContext gc = canvas.getGraphicsContext2D();
+        gc.setFill(Color.BLACK);
+        for (LeafCluster c : clusters) {
             gc.fillText("" + c.getRank(),
                     c.getMinX(), c.getMinY());
         }

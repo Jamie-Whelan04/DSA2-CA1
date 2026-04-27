@@ -19,6 +19,7 @@
             <Button text="Run TSP" onAction="#runTSP"/>
             <Button text="Reset" onAction="#resetImage"/>
             <Button text="Black and White" onAction="#showBW"/>
+            <Button text="Show Ranks" onAction="#showRanks" />
          </HBox>
 
          <!-- SLIDERS ROW -->

@@ -78,6 +78,7 @@ public class MainController {
             }
         }
     }
+
     @FXML
     public void randomColors() {
         LeafRenderer.drawRandom(canvas, clusters);
@@ -180,4 +181,11 @@ public class MainController {
     public void showBW() {
         drawBlackWhiteClusters();
     }
+
+    @FXML
+    public void showRanks() {
+        if (clusters == null) return;
+        LeafRenderer.showRanks(canvas, clusters);
+    }
+
 }
