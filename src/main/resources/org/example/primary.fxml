@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.canvas.Canvas?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml"
+            fx:controller="controllers.MainController">
+
+   <!-- TOP CONTROLS -->
+   <top>
+      <VBox spacing="8" style="-fx-padding:10; -fx-background-color:#f0f0f0;">
+
+         <!-- BUTTON ROW -->
+         <HBox spacing="10">
+            <Button text="Load Image" onAction="#loadImage"/>
+            <Button text="Process Image" onAction="#processImage"/>
+            <Button text="Random Colours" onAction="#randomColors"/>
+            <Button text="Run TSP" onAction="#runTSP"/>
+            <Button text="Reset" onAction="#resetImage"/>
+            <Button text="Black and White" onAction="#showBW"/>
+         </HBox>
+
+         <!-- SLIDERS ROW -->
+         <HBox spacing="10" alignment="CENTER_LEFT">
+
+            <Label text="Hue Min"/>
+            <Slider fx:id="hueMinSlider"
+                    min="0" max="360" value="10"
+                    prefWidth="150"/>
+
+            <Label text="Hue Max"/>
+            <Slider fx:id="hueMaxSlider"
+                    min="0" max="360" value="60"
+                    prefWidth="150"/>
+
+         </HBox>
+
+      </VBox>
+   </top>
+
+   <!-- MAIN CANVAS -->
+   <center>
+      <StackPane style="-fx-background-color:#333;">
+         <Canvas fx:id="canvas"
+                 width="900"
+                 height="600"
+                 onMouseClicked="#handleClick"/>
+      </StackPane>
+   </center>
+
+   <!-- BOTTOM STATUS -->
+   <bottom>
+      <HBox style="-fx-padding:8; -fx-background-color:#e0e0e0;">
+         <Label text="Click a cluster to see its size in console"/>
+      </HBox>
+   </bottom>
+
+</BorderPane>
