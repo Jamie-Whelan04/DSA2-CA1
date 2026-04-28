@@ -15,10 +15,10 @@
          <HBox spacing="10">
             <Button text="Load Image" onAction="#loadImage"/>
             <Button text="Process Image" onAction="#processImage"/>
+             <Button text="Show Ranks" onAction="#showRanks" />
             <Button text="Random Colours" onAction="#randomColors"/>
             <Button text="Run TSP" onAction="#runTSP"/>
             <Button text="Black and White" onAction="#showBW"/>
-            <Button text="Show Ranks" onAction="#showRanks" />
             <Button text="Reset" onAction="#resetImage"/>
          </HBox>
 

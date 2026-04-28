@@ -141,7 +141,7 @@ public class MainController {
 
         double scale = Math.min(maxSize / width, maxSize / height);
 
-        // If image is already small, return it
+        // If the image is already small, return it
         if (scale >= 1) return original;
 
         int newWidth = (int)(width * scale);
@@ -176,6 +176,7 @@ public class MainController {
             }
         }
     }
+
 
     @FXML
     public void showBW() {
