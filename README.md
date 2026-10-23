@@ -1,4 +1,4 @@
-# [Leaf Identification System]
+# Leaf Identification System
 
 **DSA2 – CA1** | Jamie Whelan
 
