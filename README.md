@@ -22,7 +22,11 @@
 
 This project was built for Data Structures & Algorithms 2 (continuous assessment 1). 
 
-> **TODO:** Add 2–3 sentences describing the brief: what problem the program solves and any requirements or constraints from the assignment.
+JavaFX-based application that uses image
+processing and a union-find algorithm to locate,
+count, and size-order autumn leaves from an input
+photo. Featuring an animated TSP route connecting
+all leaf clusters
 
 ## Features
 
