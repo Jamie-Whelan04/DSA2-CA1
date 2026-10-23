@@ -38,13 +38,34 @@ all leaf clusters
 
 ```
 DSA2-CA1/
-├── src/               # Application source code
+├── src/
+   ├── Main
+      ├── java
+         ├── benchmarks
+            ├── leafBenchmark.java
+         ├── controllers
+            ├── mainController.java
+         ├── org/example
+            ├── mainApp.java
+         ├── utils
+            ├── imageProcessor.java
+            ├── leafCluster.java
+            ├── leafRenderer.java
+            ├── mergeSort.java
+            ├── TspSolver.java
+            ├── UnionFind.java
+         ├── resources/org/example
+            ├── primary.fxml
+   ├── test/java/utils
+      ├── LeafClusterTest.java
+      ├── MergeSortTest.java
+      ├── TSPSolverTest.java
+      ├── UnionFindTest.java             
 ├── pom.xml            # Maven build configuration
 ├── .gitignore
 └── README.md
 ```
 
-> **TODO:** Expand `src/` to list your key classes and what each one does.
 
 ## Getting Started
 
