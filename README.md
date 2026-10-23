@@ -60,12 +60,6 @@ DSA2-CA1/
    ```bash
    mvn clean install
    ```
-3. Run the application from your IDE by running the class containing the `main` method, or from the command line:
-   ```bash
-   java -cp target/classes [package.]MainClass
-   ```
-
-> **TODO:** Replace `[package.]MainClass` with your actual main class.
 
 ## Usage
 
