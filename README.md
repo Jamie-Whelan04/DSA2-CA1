@@ -88,7 +88,10 @@ DSA2-CA1/
 
 ## Usage
 
-> **TODO:** Describe how to use the program, with example input and sample output.
+<img width="1495" height="1083" alt="image" src="https://github.com/user-attachments/assets/739e1929-af25-4122-a797-98ec35d463d5" />
+<img width="1497" height="1087" alt="image" src="https://github.com/user-attachments/assets/e3c5761d-6fc4-49ef-bf3a-ec0aa13fb10a" />
+<img width="1498" height="1089" alt="image" src="https://github.com/user-attachments/assets/355dc18e-8b4a-4367-979c-92c998c1a845" />
+
 
 ## Data Structures & Algorithms Used
 
