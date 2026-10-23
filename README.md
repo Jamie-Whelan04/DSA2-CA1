@@ -30,9 +30,9 @@ all leaf clusters
 
 ## Features
 
-- *(Feature 1)*
-- *(Feature 2)*
-- *(Feature 3)*
+- *Can identify leaf clusters*
+- *Seperates into blocks*
+- *Assigns a value based on the cluster size*
 
 ## Project Structure
 
